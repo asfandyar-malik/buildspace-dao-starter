@@ -1,6 +1,8 @@
 # r/Soccer DAO to buy a Soccer Team and promote it to Premier League
 
-This is a DAO through which 3.1 million subscribers of r/soccer get to buy a team together, decide unanimously on every transfer decision, club direction and get the team promoted. The rules of governance are determined on a smart contract, so everything is completely transparent.   
+This is a DAO through which 3.1 million subscribers of r/soccer get to buy a team together, decide unanimously on every transfer decision, club direction and get the team promoted. The rules of governance are determined on voting contract. 
+
+It is a way to let people vote on stuff, automatically count up those votes, and then any member would be able to execute the proposal on-chain. All without any central party (No kroenkes, glazers or sheikhs). 
 
 The goal is to take a team from 2nd, 3rd division and promote it to English Premier League.   
 
@@ -80,6 +82,27 @@ On our website we show the list of all token owners:
 
 ![image](https://user-images.githubusercontent.com/4105873/147421368-dac6d768-c922-4e04-9943-a5944dfa09ca.png)
 
+
+
+8. Deploy a governance contract for the whole DAO
+
+`node scripts/8-deploy-vote.js`
+
+We have very few governance rules: 
+* Can only vote with BALLONDOR token
+* Member have to vote within 24 hours of a proposal
+* Quorum is currently 0, so anyone can decide :) 
+
+Vote Module deployed here:  
+https://rinkeby.etherscan.io/address/0x9820eE959FeE2bA3f498825e0FC24f1BC08B7B97
+
+
+9. Distribute tokens to contract, to get rid of my wallet owning most of the supply ;): 
+
+Here transferring 90% of supply to voting contract. 
+
+You can see it there: https://rinkeby.etherscan.io/address/0x9820ee959fee2ba3f498825e0fc24f1bc08b7b97 
+![image](https://user-images.githubusercontent.com/4105873/147422116-b7452e42-4a8c-41f3-bcf9-654a11fbf091.png)
 
 
 
