@@ -105,7 +105,11 @@ You can see it there: https://rinkeby.etherscan.io/address/0x9820ee959fee2ba3f49
 ![image](https://user-images.githubusercontent.com/4105873/147422116-b7452e42-4a8c-41f3-bcf9-654a11fbf091.png)
 
 
+10. Create new proposals which could be voted upon on. 
 
+![image](https://user-images.githubusercontent.com/4105873/147492466-8120c776-8075-4650-9b0e-8dc0b2419b6a.png)
+
+Run this command 'node scripts/10-create-vote-proposals.js'
 
 
 
