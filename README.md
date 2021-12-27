@@ -54,7 +54,7 @@ You can see the token module here: https://rinkeby.etherscan.io/address/0x4377b0
 
 Import the token in your metamask wallet: 
 
-![image](https://user-images.githubusercontent.com/4105873/147420816-a97c12fe-be09-4c5f-abc2-cce5b2854313.png)
+<img src="https://user-images.githubusercontent.com/4105873/147420816-a97c12fe-be09-4c5f-abc2-cce5b2854313.png" width="200">
 
 We officially have our own token !! 
 
