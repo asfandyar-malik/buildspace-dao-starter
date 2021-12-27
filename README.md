@@ -112,7 +112,26 @@ You can see it there: https://rinkeby.etherscan.io/address/0x9820ee959fee2ba3f49
 Run this command 'node scripts/10-create-vote-proposals.js'
 
 
+11. Revoke the minting rights on ERC-20 contract, otherwise one can practically create millions of more tokens and shock the DAO. Revoking access saves us from  admin takeover :).
 
 
+![image](https://user-images.githubusercontent.com/4105873/147492795-6ff15a07-be7b-43d3-a04e-e28515a26b19.png)
+
+
+Fascinating, you can now see our token, trade it on Uniswap: https://app.uniswap.org/#/swap which is a decentralized exchange. 
+
+![image](https://user-images.githubusercontent.com/4105873/147495313-2ad0a9bc-6670-4aa3-b888-32b556137205.png)
+
+
+Final Words: 
+
+A quick overview on what has been accomplished:
+
+✅ deployed your own custom ERC-20 token
+✅ deployed your own ERC-1155 NFT people can mint to join your DAO.
+✅ deployed your own governance contract + treasury.
+✅ built a dapp that lets people connect their wallet, get an NFT, see a DAO Dashboard where they can see other members + actually vote on proposals that are executed directly by your governance contract.
+
+We just created a full-fledged DAO. The only things regarding DAO, which are did not cover so far are tokenomics, running an actual community, planning your DAOs roadmap, etc
 
 
