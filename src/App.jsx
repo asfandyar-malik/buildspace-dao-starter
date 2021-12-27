@@ -194,7 +194,8 @@ const App = () => {
   if (!address) {
     return (
       <div className="landing">
-        <h1>Welcome to NarutoDAO</h1>
+        <h1>Welcome to R/Soccer DAO</h1>
+        <p> This is a DAO through which 3.1 million subscribers of r/soccer get to buy a team together, decide unanimously on every transfer decision, club direction and get the team promoted </p>
         <button onClick={() => connectWallet("injected")} className="btn-hero">
           Connect your wallet
         </button>
