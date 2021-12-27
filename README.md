@@ -1,5 +1,7 @@
 # r/Soccer DAO to buy a Soccer Team and promote it to Premier League
 
+Deployed Link of this App: https://r-soccer-dao-h18xkyfh9-asfandyar-malik.vercel.app/ 
+
 This is a DAO through which 3.1 million subscribers of r/soccer get to buy a team together, decide unanimously on every transfer decision, club direction and get the team promoted. The rules of governance are determined on voting contract. 
 
 It is a way to let people vote on stuff, automatically count up those votes, and then any member would be able to execute the proposal on-chain. All without any central party (No kroenkes, glazers or sheikhs). 
